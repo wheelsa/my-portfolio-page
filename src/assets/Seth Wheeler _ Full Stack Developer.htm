@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link href="./Seth Wheeler _ Full Stack Developer_files/css2" rel="stylesheet">
+    <meta name="Full Stack Developer Seth Wheeler&#39;s personal portfolio page" content="Web site created by Seth Wheeler">
+    <link rel="apple-touch-icon" href="http://localhost:3000/favicon.ico">
+  
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    
+    <title>Seth Wheeler | Full Stack Developer</title>
+  <style type="text/css">*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: "Manrope", sans-serif;
+  color: #696969;
+  font-weight: 400;
+  line-height: 1.6; }
+
+.container {
+  display: grid;
+  grid-template-rows: 100vh min-content min-content min-content;
+  grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [full-end]; }
+
+.heading-1, .heading-2, .heading-3, .heading-4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
+.heading-1 {
+  font-size: 4.5rem;
+  color: #f9f7f6;
+  text-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  line-height: 1; }
+
+.heading-2 {
+  font-size: 4rem;
+  line-height: 1;
+  color: #f9f7f6;
+  text-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  .heading-2--light {
+    color: #84CEEB; }
+  .heading-2--dark {
+    color: #5680E9; }
+
+.heading-3 {
+  font-size: 2.5rem;
+  color: #5AB9EA;
+  text-transform: uppercase;
+  color: #f9f7f6;
+  text-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+.heading-4 {
+  font-size: 1.9rem; }
+  .heading-4--light {
+    color: #84CEEB; }
+  .heading-4--dark {
+    color: #5680E9; }
+
+.btn {
+  background-color: #5AB9EA;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1.8rem 3rem;
+  cursor: pointer;
+  transition: all .2s; }
+  .btn:hover {
+    background-color: #5680E9; }
+
+.mb-sm {
+  margin-bottom: 2rem; }
+
+.mb-md {
+  margin-bottom: 3rem; }
+
+.mb-lg {
+  margin-bottom: 4rem; }
+
+.mb-hg {
+  margin-bottom: 8rem; }
+
+.hero {
+  background-color: #f9f7f6;
+  grid-column: full-start / full-end;
+  background-image: linear-gradient(rgba(16, 29, 44, 0.75), rgba(16, 29, 44, 0.75)), url(/static/media/salt-lake-city-skyline.61d23073.jpg);
+  background-size: cover;
+  background-position: bottom;
+  padding: 8rem;
+  padding-top: 4rem;
+  display: grid;
+  grid-template-rows: .45fr min-content min-content;
+  grid-template-columns: minmax(min-content, max-content);
+  grid-row-gap: 1.5rem;
+  row-gap: 1.5rem;
+  justify-content: center; }
+  .hero__profile {
+    height: 20rem;
+    justify-self: center;
+    align-self: center;
+    border-radius: 100px;
+    border: 2px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  .hero__align-center {
+    text-align: center; }
+
+.navbar {
+  background-color: #4B0082;
+  grid-column: sidebar-start / sidebar-end;
+  grid-row: 1 / -1;
+  display: flex;
+  justify-content: center; }
+
+.nav-btn {
+  border: none;
+  border-radius: 0;
+  background-color: #696969;
+  height: 2px;
+  width: 4.5rem;
+  margin-top: 4rem;
+  cursor: pointer; }
+  .nav-btn::before, .nav-btn::after {
+    background-color: #696969;
+    height: 2px;
+    width: 4.5rem;
+    content: "";
+    display: block; }
+  .nav-btn::before {
+    transform: translateY(-1.5rem); }
+  .nav-btn::after {
+    transform: translateY(1.3rem); }
+  @media only screen and (max-width: 62.5em) {
+    .nav-btn {
+      margin-top: 0;
+      margin-right: 3rem; }
+      .nav-btn::before {
+        transform: translateY(-1.2rem); }
+      .nav-btn::after {
+        transform: translateY(1rem); } }
+
+.about {
+  background-color: #f9f7f6;
+  grid-column: full-start / full-end;
+  grid-row: 2 / 3;
+  font-size: 2rem;
+  display: grid;
+  grid-template-columns: minmax(5rem, 1fr) minmax(60rem, 110rem) minmax(5rem, 1fr);
+  grid-template-rows: min-content 1fr 1fr; }
+  .about__header {
+    background-color: #5680E9;
+    padding: 2rem;
+    grid-column: 1 / -1;
+    grid-row: 1 / 2; }
+  .about__headline {
+    padding: 2rem;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4; }
+  .about__content {
+    padding: 2rem;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    text-indent: 2rem; }
+
+.testimonial-quote {
+  text-indent: 2rem; }
+
+.testimonial-quote blockquote {
+  /* Negate theme styles */
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background: none;
+  color: gray;
+  font-family: Georgia, serif;
+  font-style: italic;
+  line-height: 1.4 !important;
+  margin: 0;
+  position: relative;
+  text-shadow: 0 1px white;
+  z-index: 600; }
+
+.testimonial-quote blockquote * {
+  box-sizing: border-box; }
+
+.testimonial-quote blockquote p {
+  color: #75808a;
+  line-height: 1.4 !important; }
+
+.testimonial-quote blockquote p:first-child:before {
+  content: '\201C';
+  color: #81bedb;
+  font-size: 7.5em;
+  font-weight: 700;
+  opacity: .3;
+  position: absolute;
+  top: -.4em;
+  left: -.2em;
+  text-shadow: none;
+  z-index: -300; }
+
+.testimonial-quote cite {
+  color: gray;
+  display: block;
+  font-size: .8em; }
+
+.testimonial-quote cite span {
+  color: #5e5e5e;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 0 1px white; }
+
+.testimonial-quote {
+  position: relative; }
+
+.testimonial-quote .quote-container {
+  padding-left: 160px; }
+
+.testimonial-quote.right .quote-container {
+  padding-left: 0;
+  padding-right: 160px; }
+
+.testimonial-quote.right img {
+  left: auto;
+  right: 0; }
+
+.testimonial-quote.right cite {
+  text-align: right; }
+
+.experience {
+  background-color: #f9f7f6;
+  grid-column: full-start / full-end;
+  grid-row: 3 / 4;
+  font-size: 2rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: min-content; }
+  .experience__header {
+    background-color: #5680E9;
+    padding: 2rem;
+    grid-column: 1 / -1;
+    grid-row: 1 / 2; }
+  .experience-card__container {
+    grid-column: 1 / -1;
+    margin: 5vh auto 5vh auto;
+    width: 70%;
+    border: 1px solid #696969;
+    padding: 10px 30px 10px 30px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  .experience-card {
+    display: grid;
+    grid-template-columns: min-content minmax(min-content, max-content) 1fr 1fr 1fr minmax(min-content, max-content);
+    align-items: center;
+    font-size: 2.5rem;
+    grid-row-gap: 1rem;
+    row-gap: 1rem; }
+    .experience-card__logo {
+      height: 4.5rem;
+      justify-self: left;
+      grid-column: 1 / 2;
+      grid-row: 1 / 2; }
+    .experience-card__company {
+      grid-row: 1 / 2;
+      grid-column: 2 / 3;
+      padding-left: 2rem;
+      justify-self: left;
+      color: #5680E9; }
+    .experience-card__title {
+      grid-row: 1 / 2;
+      grid-column: 6 / 7;
+      justify-self: right;
+      color: #4B0082;
+      font-size: 2.2rem;
+      padding-left: 2rem;
+      padding-right: 1rem; }
+    .experience-card__line {
+      border-top: 1px solid #696969;
+      grid-column: 1 / -1;
+      grid-row: 2 / 3; }
+    .experience-card__description {
+      font-style: italic;
+      grid-row: 3 / 4;
+      grid-column: 2 / -1;
+      font-size: 1.75rem; }
+    .experience-card__list {
+      color: #1E1E1E;
+      grid-row: 4 / 5;
+      grid-column: 2 / -1;
+      font-size: 1.75rem; }
+    .experience-card__list li {
+      padding: .5rem; }
+    .experience-card__date {
+      grid-row: 5 / 6;
+      grid-column: 1 / -1;
+      font-size: 1.5rem;
+      padding: 1rem; }
+
+.projects {
+  background-color: #f9f7f6;
+  grid-column: full-start / full-end;
+  grid-row: 4 / 5;
+  font-size: 2rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: min-content; }
+  .projects__header {
+    background-color: #5680E9;
+    padding: 2rem;
+    grid-column: 1 / -1;
+    grid-row: 1 / 2; }
+  .projects-card__container {
+    margin: 5vh 5vw 5vh 5vw;
+    width: 35rem;
+    border: 1px solid #696969;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  .projects-card {
+    display: grid;
+    grid-template-columns: min-content 1fr min-content;
+    align-items: center;
+    font-size: 2.5rem;
+    grid-row-gap: 2rem;
+    row-gap: 2rem; }
+    .projects-card__image {
+      width: 100%;
+      justify-self: left;
+      grid-column: 1 / -1;
+      grid-row: 1 / 2; }
+    .projects-card__title {
+      grid-row: 2 / 3;
+      grid-column: 1 / 2;
+      padding-left: 2rem;
+      margin-top: 2rem;
+      justify-self: left;
+      color: #5680E9; }
+    .projects-card__btn {
+      grid-row: 1 / 2;
+      grid-column: 6 / 7;
+      justify-self: right;
+      color: #4B0082;
+      font-size: 2.2rem;
+      padding-left: 2rem;
+      padding-right: 1rem; }
+    .projects-card__description {
+      font-style: italic;
+      grid-row: 3 / 4;
+      grid-column: 2 / -1;
+      font-size: 1.75rem; }
+</style><script charset="utf-8" src="./Seth Wheeler _ Full Stack Developer_files/main.86b5fb45ba86c4d018c2.hot-update.js"></script></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="container"><div class="navbar"><button class="nav-btn"></button></div><div class="hero"><h1 class="heading-1">Purpose Driven Software Development</h1><img src="./Seth Wheeler _ Full Stack Developer_files/HiRes-Seth_Wheeler.80437e4f.jpg" alt="Seth Wheeler&#39;s Profile" class="hero__profile mb-sm"><h2 class="heading-2 heading-2 hero__align-center"> Seth Wheeler </h2><h2 class="heading-3 heading-3 hero__align-center"> Software Engineer | Veteran </h2></div><div class="about"><div class="about__header"><h1 class="heading-1">About Me</h1></div><div class="about__content"><p>I’ve always sought out opportunities and challenges that are meaningful to me. Although my professional path has taken many twists and turns — from touring and recording artist, to employee of the year at a non-profit, to dean's scholar at UPenn, to small business owner and entrepreneur — I've never stopped engaging my passion to help others and solve problems. As a web developer, I enjoy using my obsessive attention to detail, my unequivocal love for making things, and my mission-driven work ethic to literally change the world. That's why I’m excited to make a big impact at a high growth company.</p></div><div class="about__headline testimonial-quote group right"><div class="quote-container"><div><blockquote><p>Seth is an outstanding leader who capitalizes on every opportunity to make those around him better. He consistently exchanges ideas across our organization, gladly helps my other multi-talented leaders with their challenging projects, admits when he’s made a mistake, and (most importantly) lives the Army values and treats everyone with respect.</p></blockquote><cite><span>Tim Lynch</span><br>Lieutenant Colonel<br>US Army, Field Artillery</cite></div></div></div></div><div class="experience"><div class="experience__header"><h1 class="heading-1">Experience</h1></div><div class="experience-card__container"><div class="experience-card"><img src="./Seth Wheeler _ Full Stack Developer_files/HireVueLogo-Small.7462a593.png" alt="HireVue Logo" class="experience-card__logo"><span class="experience-card__company">HireVue</span><span class="experience-card__title">Sr. Field Marketing Manager</span><div class="experience-card__line"></div><p class="experience-card__description">Video Interviewing and Hiring Assessments Platform</p><ul class="experience-card__list"><li> Accomplishment 1</li><li> Accomplishment 2</li><li> Accomplishment 3</li></ul><p class="experience-card__date">July 2019 - January 2020 | South Jordan, Utah</p></div></div><div class="experience-card__container"><div class="experience-card"><img src="./Seth Wheeler _ Full Stack Developer_files/DellTech_Logo.915ac055.png" alt="Dell Technologies Logo" class="experience-card__logo"><span class="experience-card__company">Dell Technologies</span><span class="experience-card__title">Vertical Marketing Manager</span><div class="experience-card__line"></div><p class="experience-card__description">North America Field and Partner Marketing: State and Local Government (SLG) Vertical</p><ul class="experience-card__list"><li> Awarded Dell Champion on annual review among six peers; award given to the top performer of each team</li><li> Contributed to an increase in marketing pipeline by 95% year over year with 42% of pipeline converted to revenue; managed an annual marketing budget of $500 thousand</li><li> Partnered with product, sales, marketing and strategically aligned businesses to develop message for helping governments achieve their digital transformation in cybersecurity, public safety, and multi-cloud</li><li> Drove content strategy, development and execution in the SLG vertical to maximize awareness, drive demand generation, and enable sales; marketing campaign featured content across the customer journey and the sales funnel </li></ul><p class="experience-card__date">July 2018 - July 2019 | Round Rock, Texas</p></div></div><div class="experience-card__container"><div class="experience-card"><img src="./Seth Wheeler _ Full Stack Developer_files/Liberty-mutual-insurance-logo.fbf49e01.png" alt="Liberty Mutual Logo" class="experience-card__logo"><span class="experience-card__company">Liberty Mutual Insurance</span><span class="experience-card__title">Corporate Development Program Associate</span><div class="experience-card__line"></div><p class="experience-card__description">Global Consumer Markets (GCM): East|West Finance</p><ul class="experience-card__list"><li> Partnered cross-functionally to streamline and standardize monthly reporting across nine countries in GCM East; new process generated insights for Chief Operating Officer of GCM East and created efficiencies for local operations</li><li> Analyzed quantitative data and stakeholder discussions across 13 East|West countries to conduct a current state analysis of the Global Internal Audit Function; analysis presented to the head of Internal Audit to inform global strategy</li></ul><p class="experience-card__date">June 2017 - September 2017 | Boston, Massachusets</p></div></div><div class="experience-card__container"><div class="experience-card"><img src="./Seth Wheeler _ Full Stack Developer_files/US-army-logo.1befcbf2.jpg" alt="United States Army Logo" class="experience-card__logo"><span class="experience-card__company">U.S. Army</span><span class="experience-card__title">Senior Operations and Logistics Manager</span><div class="experience-card__line"></div><p class="experience-card__description">Planned and resourced operations for organizations of up to 700 individuals; consistently chosen ahead of peer groups to lead organizations composed of up to 120 individuals.</p><ul class="experience-card__list"><li> Planned, resourced and orchestrated a 120-person organization’s deployment to a national training; partnered with directors across two external organizations to integrate organization successfully during exercise</li><li> Chosen over four peers to lead the organization as the Senior Operations Manager during exercise; resulted in a 300% increase in the organization’s measurable efficiency</li><li>Prepared and led four teams totaling 19-persons; integrated and coordinated teams in support of an organization of 4,400 for a national training exercise; teams had a success rating 150% above nearest peer team</li><li> Collaborated with international counterparts to execute the movement, resupply, maintenance, and sustainment for over 700 New Zealand, U.S. and Tongan Soldiers, resulting in the successful execution of a 30-day operation </li><li> Founded and led a diverse team of 35 employees over a six-month training period in preparation for a deployment to Afghanistan to conduct security operations in a combat environment; team rated #1 out of 7</li></ul><p class="experience-card__date">May 2011 - September 2016 | Oahu, Hawaii and Joint Base Lewis McChord, Washington</p></div></div></div><div class="projects"><div class="projects__header"><h1 class="heading-1">Projects</h1></div><div class="projects-card__container"><div class="projects-card"><img src="./Seth Wheeler _ Full Stack Developer_files/Digital-Glovebox-App.22543cd1.png" alt="HireVue Logo" class="projects-card__image"></div><span class="projects-card__title">Digital Glovebox</span></div></div></div></div>
+  
+  <script src="./Seth Wheeler _ Full Stack Developer_files/bundle.js"></script><script src="./Seth Wheeler _ Full Stack Developer_files/0.chunk.js"></script><script src="./Seth Wheeler _ Full Stack Developer_files/main.chunk.js"></script><script src="./Seth Wheeler _ Full Stack Developer_files/main.2aa9f683493028487d97.hot-update.js"></script>
+
+</body></html>

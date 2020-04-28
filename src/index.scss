@@ -1,0 +1,63 @@
+
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+// COLOR VARIABLES
+$color-primary: #5AB9EA;
+$color-primary-dark: #5680E9;
+
+$color-secondary: #101d2c;
+
+
+$color-light-blue: #84CEEB;
+
+$color-grey-light-1: #f9f7f6;
+$color-grey: #696969;
+$color-grey-dark: #1E1E1E;
+$color-purple-dark: #4B0082;
+// $color-purple-dark: #8860D0;
+
+// FONT VARIABLES
+$font-primary: 'Manrope', sans-serif;
+$font-display: 'Open Sans', sans-serif;
+
+//Responsive Breakpoints
+$bp-largest: 75em;  //1200/16 end up with 75 em, 16 px is default font size
+$bp-large: 62.5em; //1000px / 16
+$bp-medium: 50em; //800px / 16
+$bp-small: 37.5em; //600px / 16
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1 rem = 10 px, 10/16px
+
+}
+
+body {
+  font-family: $font-primary;
+  color: $color-grey;
+  font-weight: 400;
+  line-height: 1.6;
+  
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 100vh repeat(5,min-content); 
+  grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [full-end] ;
+  
+}
+
+@import './typography.scss';
+@import './components/Hero/Hero.scss';
+@import './components/Navbar/Navbar.scss';
+@import './components/About/About.scss';
+@import './components/Experience/Experience.scss';
+@import './components/Projects/Projects.scss';
+@import './components/Skills/Skills.scss';
+@import './components/Education/Education.scss';
