@@ -48,8 +48,8 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 100vh repeat(5,min-content); 
-  grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [full-end] ;
+  grid-template-rows: 100vh repeat(7,min-content); 
+  grid-template-columns: [sidebar-start] 10rem [sidebar-end full-start] minmax(6rem, 1fr) [full-end] ;
   
 }
 
@@ -61,3 +61,4 @@ body {
 @import './components/Projects/Projects.scss';
 @import './components/Skills/Skills.scss';
 @import './components/Education/Education.scss';
+@import './components/Footer/Footer.scss';
