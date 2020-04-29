@@ -17,6 +17,11 @@
     grid-row: 2 / 3;
   }
 
+  @media only screen and (max-width: $bp-small) {
+    grid-row: 1 / 2;
+  }
+
+
   &__profile{
     height: 20rem;
     justify-self: center ;

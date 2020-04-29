@@ -12,13 +12,17 @@
   overflow: auto;
 
     @media only screen and (max-width: $bp-large) {
-    grid-column: 1 / -1;
-    grid-row: 1 / 2;
-    width: 100%;
-    height: 8rem;
-    justify-content: flex-end;
-    align-items: center;
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      height: 8rem;
+      width: 100%;
+      z-index: 100;
   }
+
+  @media only screen and (max-width: $bp-small) {
+   display:none;
+}
 
   a {
     text-decoration: none;
@@ -27,6 +31,9 @@
   &__header {
     background-color: $color-grey-light-1;
     text-decoration: none;
+    @media only screen and (max-width: $bp-large) {
+      display: none;
+    }
   }
 
   &-line {
@@ -44,6 +51,9 @@
       from($color-grey-light-0),
       to(#fff)
     );
+    @media only screen and (max-width: $bp-large) {
+      display: none;
+    }
   }
 
   &__title {
@@ -68,17 +78,17 @@
 }
 
 .sidebar a {
+ 
+  grid-row: 1/2;
   display: block;
   color: $color-grey-dark;
   text-decoration: none;
   font-size: 1.6rem;
-  font-weight: 300;
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
   display: inline-block; 
-  width: 100%;
-  /* ^ always use if want to pad, will keep from overlapping */
+  width: 18rem;
   transition: all .2s;
   position: relative;
 }
@@ -94,3 +104,41 @@
   transform: translateY(-.3rem);
   box-shadow: 0 1rem 2rem rgba(rgb(0, 0, 0), .2);
 }
+
+@media screen and (max-width: $bp-large) {
+  .sidebar {
+    height: 8rem;
+    float: left;
+    display: block;
+    color: $color-grey-dark;
+    text-align: center;
+    padding: 1.2rem 5rem 0 0;
+    display: grid;
+    grid-template-columns: repeat(6 , minmax(10rem, 20rem));
+    
+
+
+  }
+  .sidebar a {
+    grid-row: 1/2;
+    height: 8rem;
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+
+
+  
+
+    }
+
+}
+
+.no-display{
+  display:none;
+
+  @media screen and (max-width: $bp-large) {
+  display: contents;
+
+}
+}
+

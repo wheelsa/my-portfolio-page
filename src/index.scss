@@ -36,9 +36,12 @@ $bp-small: 37.5em; //600px / 16
 html {
   box-sizing: border-box;
   font-size: 62.5%; // 1 rem = 10 px, 10/16px
+
   @media only screen and (max-width: $bp-largest) {
-    font-size: 50%;
+    font-size: 55%;
   }
+
+
 }
 
 body {
@@ -56,6 +59,12 @@ body {
     
   @media only screen and (max-width: $bp-large) {
     grid-template-rows: 8rem 100vh repeat(7,min-content); 
+    grid-template-columns: [full-start] minmax(6rem, 1fr) [full-end] ;
+  
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    grid-template-rows: 100vh repeat(7,min-content); 
     grid-template-columns: [full-start] minmax(6rem, 1fr) [full-end] ;
   
   }
