@@ -29,8 +29,7 @@ const Experience = () => {
           </p>
           <ul className="experience-card__list">
             <li>Planned, led and executed North America field marketing strategy, worked with sales, customer success and product marketing to launch 15 campaigns that resulted in a 3x return on investment.</li>
-            <li> Built position with CMO guidance into a senior role from what had previously been a junior role to drive demand generation for three sales regions, partnering directly with Regional VPs to create a tailored strategy for each of their regions.</li>
-            <li> Accomplishment 3</li>
+            <li> Built position with CMO guidance into a senior role to drive demand generation for three sales regions, partnering directly with Regional VPs to create a tailored strategy for each of their regions.</li>
           </ul>
           <p className="experience-card__date">
             July 2019 - January 2020 | South Jordan, Utah

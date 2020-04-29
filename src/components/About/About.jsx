@@ -9,15 +9,12 @@ const About = () => {
 
       <div className="about__content">
         <p>
-          I’ve always sought out opportunities and challenges that are
-          meaningful to me. Although my professional path has taken many twists
-          and turns — from touring and recording artist, to employee of the year
-          at a non-profit, to dean's scholar at UPenn, to small business owner
-          and entrepreneur — I've never stopped engaging my passion to help
-          others and solve problems. As a web developer, I enjoy using my
-          obsessive attention to detail, my unequivocal love for making things,
-          and my mission-driven work ethic to literally change the world. That's
-          why I’m excited to make a big impact at a high growth company.
+          As a veteran, I have always tried to pursue work that is purpose driven. 
+          Since leaving the Army that's taken the form of working for technology companies that empower others & drive human progress. 
+          I've been successful in this endeavor, helping companies achieve their ROI goals. I am able to work in complex cross functional environments, 
+          I have a bias for action while managing competing priorities and I believe in being a lifelong Learner with a growth mindset.
+          Something had been missing though. I realized that I wanted to do more then talk about products, I wanted to build them. I wanted to change the world directly with a hard skillset.
+          This led me to take the Full Stack Development Bootcamp at Devpoint labs to make the transition to software development. I am not on a mission to build purpose driven software, making peoples lives better one keystroke at a time. 
         </p>
       </div>
 
