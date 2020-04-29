@@ -137,9 +137,9 @@ const Projects = () => {
   };
   return (
     <div className="projects">
-      <div className="projects__header">
+      <a name="projects" className="projects__header">
         <h1 className="heading-1">Projects</h1>
-      </div>
+      </a>
         {renderCard1()}
         {renderCard2()}
 

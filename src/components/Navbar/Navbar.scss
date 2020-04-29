@@ -1,13 +1,81 @@
-.navbar{
-  background-color: $color-grey-light-1;
+.navbar {
+  background-color: white;
   grid-column: sidebar-start / sidebar-end;
   grid-row: 1 / -1;
 
+  // border: 1px solid $color-grey;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  // margin-right: 6px;
+  position: fixed;
+  height: 100%;
+  width: 18rem;
+  overflow: auto;
 
-  display: flex;
-  justify-content: center;
+  a {
+    text-decoration: none;
+  }
 
+  &__header {
+    background-color: $color-grey-light-1;
+    text-decoration: none;
+  }
+
+  &-line {
+    display: block;
+    border: none;
+    margin-bottom: .2rem;
+    height: 0.5px;
+    background: black;
+    background: -webkit-gradient(
+      radial,
+      50% 50%,
+      0,
+      50% 50%,
+      350,
+      from($color-grey-light-0),
+      to(#fff)
+    );
+  }
+
+  &__title {
+    padding: 3rem 2rem 0.5rem 3.25rem;
+    font-size: 3rem;
+    line-height: 1.15;
+    color: $color-primary-dark;
+    font-weight: 300;
+  }
+  &__subTitle {
+    padding: 0rem 2rem 1rem 3rem;
+    color: $color-grey-dark;
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
 }
 
+.sidebar a {
+  display: block;
+  color: $color-grey-dark;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block; 
+  width: 100%;
+  /* ^ always use if want to pad, will keep from overlapping */
+  transition: all .2s;
+  position: relative;
+}
 
+.active {
+  transform: translateY(-.1rem);
+  font-weight: bolder;
+  background-color: rgb(240, 240, 240);
+  box-shadow: 0 .5rem 1rem rgba(rgb(0, 0, 0), .2);
+}
 
+.sidebar a:hover:not(.active) {
+  transform: translateY(-.3rem);
+  box-shadow: 0 1rem 2rem rgba(rgb(0, 0, 0), .2);
+}

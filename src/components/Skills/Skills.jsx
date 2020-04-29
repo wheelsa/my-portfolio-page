@@ -15,9 +15,9 @@ import graphQL from "../../assets/graphql-logo.png";
 const Skills = () => {
   return (
     <div className="skills">
-      <div className="skills__header">
+       <a name="skills" className="skills__header">
         <h1 className="heading-1">Skills</h1>
-      </div>
+      </a>
 
       <div className="skills-card__container">
         <div className="skills-card">

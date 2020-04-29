@@ -15,6 +15,7 @@ $color-secondary: #101d2c;
 
 
 $color-light-blue: #84CEEB;
+$color-grey-light-0: #b1b0b0;
 
 $color-grey-light-1: #f9f7f6;
 $color-grey: #696969;
@@ -41,7 +42,7 @@ html {
 body {
   font-family: $font-primary;
   color: $color-grey;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.6;
   
 }
@@ -49,7 +50,7 @@ body {
 .container {
   display: grid;
   grid-template-rows: 100vh repeat(7,min-content); 
-  grid-template-columns: [sidebar-start] 10rem [sidebar-end full-start] minmax(6rem, 1fr) [full-end] ;
+  grid-template-columns: [sidebar-start] 18rem [sidebar-end full-start] minmax(6rem, 1fr) [full-end] ;
   
 }
 

@@ -7,9 +7,9 @@ import USArmy from "../../assets/US-army-logo.jpg";
 const Experience = () => {
   return (
     <div className="experience">
-      <div className="experience__header">
+      <a name="experience" className="experience__header">
         <h1 className="heading-1">Experience</h1>
-      </div>
+      </a>
 
       <div className="experience-card__container">
         <div className="experience-card">
@@ -33,7 +33,7 @@ const Experience = () => {
             <li> Accomplishment 3</li>
           </ul>
           <p className="experience-card__date">
-            July 2019 - January 2020 | South Jordan, Utah 
+            July 2019 - January 2020 | South Jordan, Utah
           </p>
         </div>
       </div>
@@ -81,10 +81,9 @@ const Experience = () => {
               enable sales; marketing campaign featured content across the
               customer journey and the sales funnel{" "}
             </li>
-
           </ul>
-            <p className="experience-card__date">
-            July 2018 - July 2019 | Round Rock, Texas 
+          <p className="experience-card__date">
+            July 2018 - July 2019 | Round Rock, Texas
           </p>
         </div>
       </div>
@@ -124,7 +123,7 @@ const Experience = () => {
             </li>
           </ul>
           <p className="experience-card__date">
-            June 2017 - September 2017 | Boston, Massachusets 
+            June 2017 - September 2017 | Boston, Massachusets
           </p>
         </div>
       </div>
@@ -184,7 +183,8 @@ const Experience = () => {
           </ul>
 
           <p className="experience-card__date">
-            May 2011 - September 2016 | Oahu, Hawaii and Joint Base Lewis McChord, Washington
+            May 2011 - September 2016 | Oahu, Hawaii and Joint Base Lewis
+            McChord, Washington
           </p>
         </div>
       </div>

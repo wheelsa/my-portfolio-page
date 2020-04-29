@@ -5,10 +5,14 @@ import DPL from "../../assets/DPL-logo.png";
 
 const Education = () => {
   return (
+    
     <div className="education">
-      <div className="education__header">
+   
+      <a name="education" className="education__header">
         <h1 className="heading-1">Education</h1>
-      </div>
+      
+      </a>
+  
 
       <div className="education-card__container">
         <div className="education-card">

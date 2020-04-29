@@ -5,7 +5,7 @@ const Footer = () => {
    
     <p class="copyright">
       &copy; Copyright 2020 by Seth Wheeler. <br />
-     Webpage layout design drawn heavily from Andrew Borstein at https://andrewborstein.com/. CSS is my own, Materialize used for the icons.</p>
+     Webpage layout design drawn heavily from Andrew Borstein at https://andrewborstein.com/. CSS is my own, Materialize used for the icons. I built this page using React</p>
     </footer>
   );
 };
