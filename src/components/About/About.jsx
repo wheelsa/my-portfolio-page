@@ -21,8 +21,8 @@ const About = () => {
         </p>
       </div>
 
-      <div class="about__headline testimonial-quote group right">
-        <div class="quote-container">
+      <div className="about__headline testimonial-quote group right">
+        <div className="quote-container">
           <div>
             <blockquote>
               <p>

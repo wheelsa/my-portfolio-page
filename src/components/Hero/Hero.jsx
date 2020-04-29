@@ -21,14 +21,14 @@ const Hero = () => {
         Software Engineer | Veteran{" "}
       </h2>
       <div className="hero__align-center hero__links">
-        <a href="https://github.com/wheelsa" target="_blank">
+        <a href="https://github.com/wheelsa" target="_blank" rel="noopener noreferrer">
           <img
             src={Github}
             alt="Seth Wheeler's Github"
             className="mb-sm hero__links-img"
           />
         </a>
-        <a href="https://www.linkedin.com/in/wheelerseth/" target="_blank">
+        <a href="https://www.linkedin.com/in/wheelerseth/" target="_blank" rel="noopener noreferrer">
           <img
             src={LinkedIn}
             alt="Seth Wheeler's LinkedIn"

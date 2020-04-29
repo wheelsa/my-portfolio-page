@@ -22,7 +22,7 @@ const Projects = () => {
     if (toggleCard1 === true) {
       return (
         <div className="projects-card__container-1">
-          <div class="projects-card card-reveal">
+          <div className="projects-card card-reveal">
             <span className="projects-card__title" onClick={handleClick1}>
               Skills Used
             </span>
@@ -59,7 +59,7 @@ const Projects = () => {
               </li>
             </ul>
             <div className="projects-center projects__links">
-              <a href="https://github.com/wheelsa/DigitalGloveBox" target="_blank">
+              <a href="https://github.com/wheelsa/DigitalGloveBox" target="_blank" rel="noopener noreferrer">
                 <img
                   src={Github}
                   alt="Seth Wheeler's Github"
@@ -68,7 +68,7 @@ const Projects = () => {
               </a>
               <a
                 href="https://digital-glovebox.herokuapp.com/"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
               >
                 <img
                   src={ExternalLink}
@@ -117,7 +117,7 @@ const Projects = () => {
     if (toggleCard2 === true) {
       return (
         <div className="projects-card__container-2">
-          <div class="projects-card card-reveal">
+          <div className="projects-card card-reveal">
             <span className="projects-card__title" onClick={handleClick2}>
               Skills Used
             </span>
@@ -145,7 +145,7 @@ const Projects = () => {
               </li>
             </ul>
             <div className="projects-center projects__links">
-              <a href="https://github.com/wheelsa/eCommerce_Platform" target="_blank">
+              <a href="https://github.com/wheelsa/eCommerce_Platform" target="_blank" rel="noopener noreferrer">
                 <img
                   src={Github}
                   alt="Seth Wheeler's Github"
@@ -154,7 +154,7 @@ const Projects = () => {
               </a>
               <a
                 href="https://ecommerce-vor.herokuapp.com/"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
               >
                 <img
                   src={ExternalLink}
