@@ -28,8 +28,8 @@ const Experience = () => {
             Video Interviewing and Hiring Assessments Platform
           </p>
           <ul className="experience-card__list">
-            <li> Accomplishment 1</li>
-            <li> Accomplishment 2</li>
+            <li>Planned, led and executed North America field marketing strategy, worked with sales, customer success and product marketing to launch 15 campaigns that resulted in a 3x return on investment.</li>
+            <li> Built position with CMO guidance into a senior role from what had previously been a junior role to drive demand generation for three sales regions, partnering directly with Regional VPs to create a tailored strategy for each of their regions.</li>
             <li> Accomplishment 3</li>
           </ul>
           <p className="experience-card__date">
