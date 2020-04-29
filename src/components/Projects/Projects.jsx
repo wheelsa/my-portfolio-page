@@ -67,7 +67,7 @@ const Projects = () => {
                 />
               </a>
               <a
-                href="https://digital-glovebox.herokuapp.com/"
+                href="https://digitalglovebox-us.herokuapp.com/"
                 target="_blank" rel="noopener noreferrer"
               >
                 <img
