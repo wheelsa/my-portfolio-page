@@ -13,6 +13,10 @@
   grid-row: 4 / 5;
   font-size: 2rem;
 
+  @media only screen and (max-width: $bp-large) {
+    grid-row: 5 / 6;
+  }
+
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: min-content;
@@ -32,6 +36,15 @@
     border: 1px solid $color-grey;
     border-radius: 4px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    @media only screen and (max-width: $bp-medium) {
+      grid-row: 2 / 3;
+      grid-column: 1 / -1;
+      justify-self:center; 
+      height: 45rem;
+      width: 40rem;
+     
+    }
   }
   
   &-card__container-2 {
@@ -42,6 +55,15 @@
     border: 1px solid $color-grey;
     border-radius: 4px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    @media only screen and (max-width: $bp-medium) {
+      grid-row: 3 / 4;
+      grid-column: 1 / -1;
+      justify-self:center; 
+      height: 45rem;
+      width: 40rem;
+     
+    }
   }
 
 
@@ -65,6 +87,11 @@
       grid-column: 1 / -1;
       grid-row: 1 / 2;
       cursor: pointer;
+      align-self:start;
+
+      @media only screen and (max-width: $bp-medium) {
+        height: 30rem;
+      }
     }
 
     &__title {

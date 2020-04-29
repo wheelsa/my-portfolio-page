@@ -11,6 +11,15 @@
   width: 18rem;
   overflow: auto;
 
+    @media only screen and (max-width: $bp-large) {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    width: 100%;
+    height: 8rem;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
   a {
     text-decoration: none;
   }
@@ -43,12 +52,18 @@
     line-height: 1.15;
     color: $color-primary-dark;
     font-weight: 300;
+    @media only screen and (max-width: $bp-large) {
+      display: none;
+    }
   }
   &__subTitle {
     padding: 0rem 2rem 1rem 3rem;
     color: $color-grey-dark;
     font-weight: 300;
     font-size: 1.5rem;
+    @media only screen and (max-width: $bp-large) {
+      display: none;
+    }
   }
 }
 

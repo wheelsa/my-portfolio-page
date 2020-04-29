@@ -5,7 +5,15 @@
   font-size: 2rem;
   display: grid;
 
+  @media only screen and (max-width: $bp-large) {
+    grid-row: 3 / 4;
+  }
+
   grid-template-columns: minmax(5rem, 1fr) minmax(60rem, 110rem) minmax(5rem, 1fr);
+  
+  @media only screen and (max-width: $bp-small) {
+    grid-template-columns: repeat(3, 1fr);
+  }
   grid-template-rows: min-content 1fr 1fr;
   
   &__header{
@@ -21,6 +29,10 @@
     grid-column: 2 / 3;
     grid-row: 3 / 4;
     
+    @media only screen and (max-width: $bp-small) {
+      grid-column: 1 / -1;
+      margin: 0 2rem;
+    }
   }
   &__content{
     padding: 2rem;
@@ -28,6 +40,10 @@
     grid-row: 2 / 3;
     text-indent: 2rem;
 
+    @media only screen and (max-width: $bp-small) {
+      grid-column: 1 / -1;
+      margin: 0 2rem;
+    }
   }
 
 
@@ -37,6 +53,9 @@
 
 .testimonial-quote {
   text-indent: 2rem;
+  @media only screen and (max-width: $bp-small) {
+    width: 100%
+  }
 }
 
 .testimonial-quote blockquote {
@@ -54,6 +73,7 @@
   position: relative;
   text-shadow: 0 1px white;
   z-index: 600;
+
 }
 
 .testimonial-quote blockquote * {

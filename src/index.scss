@@ -21,7 +21,7 @@ $color-grey-light-1: #f9f7f6;
 $color-grey: #696969;
 $color-grey-dark: #1E1E1E;
 $color-purple-dark: #4B0082;
-// $color-purple-dark: #8860D0;
+
 
 // FONT VARIABLES
 $font-primary: 'Manrope', sans-serif;
@@ -30,13 +30,15 @@ $font-display: 'Open Sans', sans-serif;
 //Responsive Breakpoints
 $bp-largest: 75em;  //1200/16 end up with 75 em, 16 px is default font size
 $bp-large: 62.5em; //1000px / 16
-$bp-medium: 50em; //800px / 16
+$bp-medium: 45em; //720px / 16
 $bp-small: 37.5em; //600px / 16
 
 html {
   box-sizing: border-box;
   font-size: 62.5%; // 1 rem = 10 px, 10/16px
-
+  @media only screen and (max-width: $bp-largest) {
+    font-size: 50%;
+  }
 }
 
 body {
@@ -51,7 +53,13 @@ body {
   display: grid;
   grid-template-rows: 100vh repeat(7,min-content); 
   grid-template-columns: [sidebar-start] 18rem [sidebar-end full-start] minmax(6rem, 1fr) [full-end] ;
+    
+  @media only screen and (max-width: $bp-large) {
+    grid-template-rows: 8rem 100vh repeat(7,min-content); 
+    grid-template-columns: [full-start] minmax(6rem, 1fr) [full-end] ;
   
+  }
+
 }
 
 @import './typography.scss';

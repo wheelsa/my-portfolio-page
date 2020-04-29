@@ -5,6 +5,10 @@
   font-size: 2rem;
   display: grid;
 
+  @media only screen and (max-width: $bp-large) {
+    grid-row: 4 / 5;
+  }
+
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: min-content;
 
@@ -23,9 +27,6 @@
     padding: 10px 30px 10px 30px;
     border-radius: 4px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
-
-   
   }
 
   &-card {
@@ -52,7 +53,9 @@
       justify-self: left;
       color: $color-primary-dark;
       font-weight: 500;
-      
+      @media only screen and (max-width: $bp-small) {
+        display: none;
+      }
     }
 
     &__title {
@@ -64,7 +67,7 @@
       padding-left: 2rem;
       padding-right: 1rem;
       font-weight: 500;
-      
+
     }
     &__line {
       border-top: 1px solid $color-grey;
