@@ -10,11 +10,11 @@ const About = () => {
       <div className="about__content">
         <p>
           As a veteran, I have always tried to pursue work that is purpose driven. 
-          Since leaving the Army that's taken the form of working for technology companies that empower others & drive human progress. 
+          Since leaving the Army that's taken the form of working for technology companies that empower others and drive human progress. 
           I've been successful in this endeavor, helping companies achieve their ROI goals. I am able to work in complex cross functional environments, 
-          I have a bias for action while managing competing priorities and I believe in being a lifelong Learner with a growth mindset.
+          I have a bias for action while managing competing priorities and I believe in being a lifelong learner with a growth mindset.
           Something had been missing though. I realized that I wanted to do more then talk about products, I wanted to build them. I wanted to change the world directly with a hard skillset.
-          This led me to take the Full Stack Development Bootcamp at Devpoint labs to make the transition to software development. I am not on a mission to build purpose driven software, making peoples lives better one keystroke at a time. 
+          This led me to take the Full Stack Development Bootcamp at DevPoint Labs to make the transition to software development. I am now on a mission to build purpose driven software, making peoples lives better one keystroke at a time. 
         </p>
       </div>
 

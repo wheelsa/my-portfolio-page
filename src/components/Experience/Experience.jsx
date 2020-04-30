@@ -28,8 +28,8 @@ const Experience = () => {
             Video Interviewing and Hiring Assessments Platform
           </p>
           <ul className="experience-card__list">
-            <li>Planned, led and executed North America field marketing strategy, worked with sales, customer success and product marketing to launch 15 campaigns that resulted in a 3x return on investment.</li>
-            <li> Built position with CMO guidance into a senior role to drive demand generation for three sales regions, partnering directly with Regional VPs to create a tailored strategy for each of their regions.</li>
+            <li>Planned, led and executed North America field marketing strategy, worked with sales, customer success and product marketing to launch 15 campaigns that resulted in a 3x return on investment</li>
+            <li> Built position with CMO guidance into a senior role to drive demand generation for three sales regions, partnering directly with Regional VPs to create a tailored strategy for each of their regions</li>
           </ul>
           <p className="experience-card__date">
             July 2019 - January 2020 | South Jordan, Utah
@@ -143,7 +143,7 @@ const Experience = () => {
           <p className="experience-card__description">
             Planned and resourced operations for organizations of up to 700
             individuals; consistently chosen ahead of peer groups to lead
-            organizations composed of up to 120 individuals.
+            organizations composed of up to 120 individuals
           </p>
           <ul className="experience-card__list">
             <li>
