@@ -12,6 +12,6 @@ This is the repo from my portfolion page, where you can learn all about my skill
 
 ### Some Additional Notes:
 
- * Site can be found live at http://www.sethawheeler.com/.
+ * Site can be found live at http://www.sethawheeler.com/
 
- * Deployed using Express.js for the backend.
+ * Deployed using Express.js for the backend
