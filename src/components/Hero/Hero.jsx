@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className="hero">
       <h1 className="heading-1 hero__align-center mb-sm">
-        Purpose Driven Software Development
+        Purpose Driven Product Development
       </h1>
       <img
         src={profile}
@@ -18,7 +18,7 @@ const Hero = () => {
       <h2 className="heading-2 hero__align-center"> Seth Wheeler </h2>
       <h2 className="heading-3 hero__align-center">
         {" "}
-        Software Engineer | Veteran{" "}
+        Vet | MBA | Dev{" "}
       </h2>
       <div className="hero__align-center hero__links">
         <a href="https://github.com/wheelsa" target="_blank" rel="noopener noreferrer">

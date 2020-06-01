@@ -13,7 +13,7 @@ const About = () => {
           Since leaving the Army that's taken the form of working for technology companies that empower others and drive human progress. 
           I've been successful in this endeavor, helping companies achieve their ROI goals. I am able to work in complex cross functional environments, 
           I have a bias for action while managing competing priorities and I believe in being a lifelong learner with a growth mindset.
-          Something had been missing though. I realized that I wanted to do more then talk about products, I wanted to build them.  I am now on a mission to build purpose driven products, making peoples lives better one feature at a time. 
+          Something had been missing though. I realized that I wanted to do more then talk about products, I wanted to build them.  I am now on a mission to build purpose driven products. 
         </p>
       </div>
 
