@@ -60,7 +60,7 @@ const Navbar = () => {
             Seth <br />
             Wheeler
           </h3>
-          <h4 className="heading-5 navbar__subTitle">MBA | Developer</h4>
+          <h4 className="heading-5 navbar__subTitle">Vet | MBA | Dev</h4>
           <span className="navbar-line" />
         </div>
       </a>

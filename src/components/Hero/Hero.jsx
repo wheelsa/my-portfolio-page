@@ -18,7 +18,7 @@ const Hero = () => {
       <h2 className="heading-2 hero__align-center"> Seth Wheeler </h2>
       <h2 className="heading-3 hero__align-center">
         {" "}
-        Vet | MBA | Dev{" "}
+        Veteran | MBA | Developer{" "}
       </h2>
       <div className="hero__align-center hero__links">
         <a href="https://github.com/wheelsa" target="_blank" rel="noopener noreferrer">
