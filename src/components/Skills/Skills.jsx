@@ -42,6 +42,10 @@ const Skills = () => {
             <span className="skills-card__pairing--name">Javascript</span>
           </div>
           <div className="skills-card__pairing">
+            <img src={Java} alt="Java" className="skills-card__pairing--logo" />
+            <span className="skills-card__pairing--name">Java  </span>
+          </div>
+          <div className="skills-card__pairing">
             <img
               src={RoR}
               alt="Ruby on Rails Logo"
@@ -98,10 +102,6 @@ const Skills = () => {
         <div className="skills-card">
           <span className="skills-card__title">Currently Learning</span>
           <div className="skills-card__line" />
-          <div className="skills-card__pairing">
-            <img src={Java} alt="Java" className="skills-card__pairing--logo" />
-            <span className="skills-card__pairing--name">Java  </span>
-          </div>
           <div className="skills-card__pairing">
             <img
               src={reactNative}
